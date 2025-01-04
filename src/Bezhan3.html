@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Врачи (общая страничка для направления врачей)</title>
+    <title>Врачи (детальная страничка)</title>
     <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.6.0-web/css/all.css">
 </head>
 <body class="max-w-[1300px] m-auto">
     <header>
@@ -72,7 +72,7 @@
             </div>
         </nav>
     </header>
-    <header class="mt-[50px]">
+    <header class="mt-[50px] bg-[#F0F6F9]">
         <div class=" flex gap-[10px] pl-[25px]  lg:ml-[40px]">
             <div>
                 <h1 class="text-[20px] text-[#353535]">Главная</h1>
@@ -83,130 +83,161 @@
                 <div>
                     <h1 class="text-[20px] text-[#353535]">Врачи</h1>
                     <div class="h-[1px] ml-[-1px] w-[60px] bg-[#353535]"></div>
-                
+                    
                 </div>
             </div>
         <div class="flex gap-[10px]">
             <p class="text-[20px]">/</p>
-            <h1 class="text-[20px] text-[gray]">Невролог</h1>
+            <div>
+                <h1 class="text-[20px]">Невролог</h1>
+                <div class="h-[1px] ml-[-1px] w-[85px] bg-[#353535]"></div>
+
+            </div>
+        </div>
+        <div class="gap-[10px] hidden lg:flex">
+            <p class="text-[20px]">/</p>
+            <h1 class="text-[20px] text-[gray]">Савина Наталья Владимировна</h1>
+        </div>
+    </div>
+    <section class="p-[20px]">
+        <h1 class="text-[40px] font-semibold lg:hidden">Савина Наталья Владимировна</h1>
+        <div class="lg:flex gap-[20px]">
+
+            <div class="mt-[20px] lg:w-[900px]">
+                <img src="./Bezh.img/photo (1).png" class="w-[100%]">
+            </div>
+            <div>
+                <div class="hidden lg:block">
+
+                    <h1 class="text-[40px] font-semibold lg:block hidden">Савина Наталья <br> Владимировна</h1>
+                </div>
+                <div class="text-[#00578A] flex flex-col gap-[10px] font-semibold text-[25px] mt-[20px]">
+                    <h1>Врач-невролог</h1>
+                    <p>Стаж работы - 35 лет</p>
+                    <p class="text-[16px] text-[#141414]">Основными направлениями являются лечение: цереброваскулярных заболеваний, последствий ОНМК, вертеброгенных заболеваний, консервативное лечение грыж межпозвоночных дисков, полинейропатия различной этиологии.</p>
+                </div>
+                <div class="mt-[20px] flex gap-[10px]">
+                    <div class="w-[1.5px] rounded-[5px] h-[50px] bg-[gray] lg:h-[20px] lg:mt-[3px]"></div>
+                    <div class="lg:flex gap-[10px]">
+                        <h1 class="text-[#141414]">Ближайшая дата приема:</h1>
+                        <p>28 октября (сб)</p>
+            </div>
+        </div>
+        <div class="mt-[40px] flex flex-col gap-[10px] lg:flex lg:flex-row">
+            <button class="py-[10px] px-[100px] bg-[#00C6BF] text-white rounded-[5px]">Записаться к врачу</button>
+            <button class="py-[10px] px-[100px] bg-[#E3EFF5] text-[#017CC1] rounded-[5px]">Оставить отзыв</button>
         </div>
         
     </div>
-</header>
-<main class="mt-[50px]">
-<div><h1 class="text-[45px] ml-[25px] lg:ml-[60px] font-semibold">Невролог</h1></div>
-<div class="lg:ml-[30px] p-[20px] lg:mt-[20px]">
-    <div class="p-[10px] lg:w-[300px]">
-        <img src="./Bezh.img/Mask group (5).png" class="w-[100%]">
-        <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Федоренко Андрей</h1>
-        <p class="mt-[10px] text-[20px]">Врач-оториноларинголог</p>
-        <button class="text-white px-[130px] mt-[20px] lg:px-[100px] py-[15px] bg-[#00578A] rounded-[5px]">
-            Записаться
-        </button>
-    </div>
 </div>
-<section class="pl-[20px] ml-[20px] lg:ml-[40px] mt-[20px]">
-    <h1 class="text-[30px] font-semibold">Стоимость услуг</h1>
-</section>
-<div class="p-[20px]">
-    <div class="flex flex-col gap-[20px]">
-       <div>
-             <div class="flex justify-between">
-                <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
-                    <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
-                    <h1 class="text-[18px]">Наименование услуги</h1>
+    </section>
+</header>
+<main class="p-[20px]">
+    <div class="mt-[40px]">
+        <div class="flex items-center gap-[50px]">
+            <div class="flex gap-[60px] ">
+                <p class="text-[20px] font-semibold">Профессиональные навыки</p><div class="lg:hidden"><i class="fa-solid fa-angle-down block lg:hidden"></i></div></div>
+            </div>
+                <p class="text-[20px] font-semibold text-[gray] hidden lg:block">Образование</p>
+                <p class="text-[20px] font-semibold text-[gray] hidden lg:block">Повышение квалификации</p>
+            <div class="mt-[10px] hidden lg:flex">
+<hr class="hidden lg:block border-[1px] rounded-[5px] w-[22%] border-[#017CC1]">
+<hr class="hidden lg:block border-[1px] rounded-[5px] w-[41%] border-[#E3EFF5]">
+</div>
+        </div>
+        <div class="mt-[20px] hidden lg:block">
+            <p>С 2000 по 2013 год заведующая неврологическим отделением.
+                Основные направлениями являются лечение: цереброваскулярных заболеваний, последствий ОНМК, вертеброгенных заболеваний, консервативное лечение грыж межпозвоночных дисков, полинейропатия различной этиологии.
+                Проведение паравертебральных блокад.</p>
+        </div>
+        <div class="mt-[20px] flex gap-[10px] lg:hidden">
+            <p class="w-[130px] font-semibold">1988 г.</p>
+            <div>
+                <p>Московский Медицинский Стоматологический Институт им.Н.А.Семашко. Специальность: «Лечебное дело».</p>
+            </div>
+        </div>
+        <div class="mt-[20px] flex gap-[10px] lg:hidden">
+            <p class="w-[140px] font-semibold">1997 г.</p>
+            <div>
+                <p>Московский Медицинский Стоматологический Институт им.Н.А.Семашко. Ординатура по специальности «Неврология».</p>
+            </div>
+        </div>
+        <div class="flex items-center gap-[190px] mt-[30px] lg:hidden">
+            <p class="text-[20px] font-semibold">Образование</p><i class="fa-solid fa-angle-up"></i>
+        </div>
+    </div>
+    <div class="flex items-center gap-[57px] mt-[20px] lg:hidden">
+        <p class="text-[20px] font-semibold">Повышение квалификации</p><i class="fa-solid fa-angle-down"></i>
+    </div>
+    <section class="pl-[20px] ml-[20px] lg:ml-[40px] mt-[40px]">
+        <h1 class="text-[30px] font-semibold">Стоимость услуг</h1>
+    </section>
+    <div class="p-[20px]">
+        <div class="flex flex-col gap-[20px]">
+           <div>
+                 <div class="flex justify-between">
+                    <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
+                        <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
+                        <h1 class="text-[18px]">Наименование услуги</h1>
+                    </div>
+                    <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
                 </div>
-                <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
+                <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
             </div>
-            <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
-        </div>
-       <div>
-             <div class="flex justify-between">
-                <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
-                    <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
-                    <h1 class="text-[18px]">Наименование услуги</h1>
+           <div>
+                 <div class="flex justify-between">
+                    <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
+                        <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
+                        <h1 class="text-[18px]">Наименование услуги</h1>
+                    </div>
+                    <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
                 </div>
-                <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
+                <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
             </div>
-            <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
-        </div>
-       <div>
-             <div class="flex justify-between">
-                <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
-                    <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
-                    <h1 class="text-[18px]">Наименование услуги</h1>
+           <div>
+                 <div class="flex justify-between">
+                    <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
+                        <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
+                        <h1 class="text-[18px]">Наименование услуги</h1>
+                    </div>
+                    <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
                 </div>
-                <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
+                <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
             </div>
-            <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
-        </div>
-       <div>
-             <div class="flex justify-between">
-                <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
-                    <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
-                    <h1 class="text-[18px]">Наименование услуги</h1>
+            <section class="mt-[50px]">
+                <div class="flex flex-col gap-[30px] lg:flex lg:justify-between lg:flex-row">
+                    <h1 class="text-[35px] font-semibold">Отзывы о враче</h1>
+                    <img src="./Bezh.img/Slider Buttons (1).png" class="w-[130px] lg:w-[130px] lg:h-[60px]">
+                    
                 </div>
-                <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
-            </div>
-            <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
-        </div>
-       <div>
-             <div class="flex justify-between">
-                <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
-                    <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
-                    <h1 class="text-[18px]">Наименование услуги</h1>
+                <div class="lg:flex flex-row gap-[20px]">
+                    <div class="mt-[30px]">
+                        <h1 class="font-semibold text-[20px]">Балушина Татьяна</h1>
+                        <p>
+                            18 апреля 2022
+                        </p>
+                        <div class="flex gap-[5px] text-[18px] mt-[10px]">
+                            <i class="fa-solid fa-star text-[#F25A2A]"></i>
+                            <i class="fa-solid fa-star text-[#F25A2A]"></i>
+                            <i class="fa-solid fa-star text-[#F25A2A]"></i>
+                            <i class="fa-solid fa-star text-[#F25A2A]"></i>
+                            <i class="fa-solid fa-star text-[#F25A2A]"></i>
+                            <i class="fa-solid fa-star text-[#F25A2A]"></i>
+                        </div>
+                        <div class="mt-[20px]">
+                            <h1>Попала к Татьяне Ивановне спонтанно. Очень довольна приёмом и проведением ультразвуковой диагностики. Спасибо Наталье Ивановне за внимательное отношение к пациентам! При возникнвении проблем теперь только к ней!</h1>
+                        </div>
+                        <button class="text-[#017CC1] font-semibold text-[17px] px-[55px] mt-[20px] py-[15px] border-[1.5px] rounded-[5px] border-[#017CC1]">Подробнее</button>
+                        <div class="mt-[20px] flex gap-[5px] text-[18px] font-semibold">
+                            <h1>Врач:</h1>
+                            <h1 class="text-[#017CC1]">Савина Наталья Владимировна</h1>
+                            
+                        </div>
                 </div>
-                <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
-            </div>
-            <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
-        </div>
-       <div>
-             <div class="flex justify-between">
-                <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
-                    <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
-                    <h1 class="text-[18px]">Наименование услуги</h1>
-                </div>
-                <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
-            </div>
-            <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
-        </div>
-       <div>
-             <div class="flex justify-between">
-                <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
-                    <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
-                    <h1 class="text-[18px]">Наименование услуги</h1>
-                </div>
-                <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
-            </div>
-            <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
-        </div>
-       <div>
-             <div class="flex justify-between">
-                <div class="flex lg:flex gap-[30px] lg:gap-[50px]">
-                    <h1 class="text-[#7F8D94] text-[18px]">55.013</h1>
-                    <h1 class="text-[18px]">Наименование услуги</h1>
-                </div>
-                <h1 class="text-[#00578A] text-[18px]">1000 ₽</h1>
-            </div>
-            <hr class="border-[1px] text-[#7F8D94] mt-[10px]">    
-        </div>
-        <div>
-            <h1 class="text-[#00578A]">
-                Раскрыть список
-            </h1>
-        <hr class="text-[#00578A] border-[#00578A] border-[1px] w-[125px]">
-        </div>
-        <section class="mt-[30px]">
-            <div class="flex flex-col gap-[30px] lg:flex lg:justify-between lg:flex-row">
-                <h1 class="text-[35px] font-semibold">Отзывы пациентов</h1>
-                <img src="./Bezh.img/Slider Buttons (1).png" class="w-[130px] lg:w-[130px] lg:h-[60px]">
-                
-            </div>
-            <div class="lg:flex flex-row gap-[20px]">
-                <div class="mt-[30px]">
-                    <h1 class="font-semibold text-[20px]">Балушина Татьяна</h1>
+                <div class="hidden lg:block mt-[30px]">
+                    <h1 class="font-semibold text-[20px]">Трофимов Иван</h1>
                     <p>
-                        18 апреля 2022
+                        24 ноября 2021
                     </p>
                     <div class="flex gap-[5px] text-[18px] mt-[10px]">
                         <i class="fa-solid fa-star text-[#F25A2A]"></i>
@@ -217,57 +248,18 @@
                         <i class="fa-solid fa-star text-[#F25A2A]"></i>
                     </div>
                     <div class="mt-[20px]">
-                        <h1>Попала к Татьяне Ивановне спонтанно. Очень довольна приёмом и проведением ультразвуковой диагностики. Спасибо Наталье Ивановне за внимательное отношение к пациентам! При возникнвении проблем теперь только к ней!</h1>
+                        <h1>Огромное спасибо врачу за тщательное обследование. Выявили нехватку витамина Д, проблем с щитовидной, к счастью, не оказалось. Доктор приятная в общении и настоящий профессионал!</h1>
                     </div>
                     <button class="text-[#017CC1] font-semibold text-[17px] px-[55px] mt-[20px] py-[15px] border-[1.5px] rounded-[5px] border-[#017CC1]">Подробнее</button>
-                    <div class="mt-[20px] flex gap-[5px] text-[18px] font-semibold">
+                    <div class="mt-[20px] gap-[5px] text-[18px] font-semibold hidden lg:flex">
                         <h1>Врач:</h1>
-                        <h1 class="text-[#017CC1]">Савина Наталья Владимировна</h1>
+                        <h1 class="text-[#017CC1]">Крятов Андрей Михайлович</h1>
                         
                     </div>
-            </div>
-            <div class="hidden lg:block mt-[30px]">
-                <h1 class="font-semibold text-[20px]">Трофимов Иван</h1>
-                <p>
-                    24 ноября 2021
-                </p>
-                <div class="flex gap-[5px] text-[18px] mt-[10px]">
-                    <i class="fa-solid fa-star text-[#F25A2A]"></i>
-                    <i class="fa-solid fa-star text-[#F25A2A]"></i>
-                    <i class="fa-solid fa-star text-[#F25A2A]"></i>
-                    <i class="fa-solid fa-star text-[#F25A2A]"></i>
-                    <i class="fa-solid fa-star text-[#F25A2A]"></i>
-                    <i class="fa-solid fa-star text-[#F25A2A]"></i>
-                </div>
-                <div class="mt-[20px]">
-                    <h1>Огромное спасибо врачу за тщательное обследование. Выявили нехватку витамина Д, проблем с щитовидной, к счастью, не оказалось. Доктор приятная в общении и настоящий профессионал!</h1>
-                </div>
-                <button class="text-[#017CC1] font-semibold text-[17px] px-[55px] mt-[20px] py-[15px] border-[1.5px] rounded-[5px] border-[#017CC1]">Подробнее</button>
-                <div class="mt-[20px] gap-[5px] text-[18px] font-semibold hidden lg:flex">
-                    <h1>Врач:</h1>
-                    <h1 class="text-[#017CC1]">Крятов Андрей Михайлович</h1>
-                    
                 </div>
             </div>
-        </div>
-        </section>
-        
-    </main>
-    <main class="lg:p-[20px] mt-[60px]">
-<section class="bg-[#F0F6F9] p-[20px] lg:p-[30px] lg:rounded-[10px]">
-    <div >
-        <h1 class="text-[20px] font-semibold lg:hidden">Все, что вы должны знать о косметологии: секреты красоты и здоровья</h1>
-        <h1 class="text-[30px] pt-[20px] font-semibold hidden lg:block">Блок для seo текста</h1>
-        <h1 class="mt-[10px]">Косметология – это наука и искусство, которое изучает и улучшает красоту и здоровье кожи, волос и ногтей. Современная косметология предлагает широкий спектр процедур и продуктов, которые помогают нам выглядеть и чувствовать себя лучше. В этой статье мы погрузимся в мир косметологии и рассмотрим основные аспекты этой науки.</h1>
-   <div>
-    <div class="flex gap-[5px] mt-[20px] text-[#017CC1] text-[18px] font-semibold">
-        <p>1.</p>
-        <p>Роль косметолога в <br class="lg:hidden"> поддержании красоты и <br class="lg:hidden"> здоровья</p>
-    </div>
-    <p class="mt-[20px] pb-[40px]">Косметолог – это специалист, который помогает нам достичь желаемого внешнего вида и поддерживать здоровье нашей кожи и волос. Он или она проводит диагностику, консультирует по уходу за кожей и рекомендует процедуры и продукты, которые помогут решить определенные проблемы.</p>
-   </div>
-   
-    </section>
+            </section>
+</main>
 <section class="p-[20px]">
     <div class="flex flex-col gap-[30px] lg:flex lg:justify-between lg:flex-row">
         <h1 class="text-[40px] font-semibold">Лицензии и <br> сертификаты</h1>
@@ -327,7 +319,7 @@
             </div>
             <div class="lg:mt-[-20px]">
                 <button
-                    class="text-white bg-[#00C6BF] rounded-[5px] py-[15px] mt-[20px] mb-[-30px] px-[110px] lg:px-[110px] ">Оставить
+                    class="text-white bg-[#00C6BF] rounded-[5px] py-[15px] mt-[20px] mb-[-30px] px-[110px] lg:px-[100px] ">Оставить
                     заявку</button>
                 <div class="flex items-center gap-[20px] lg:mt-[-10px]">
                     <img src="./Bezh.img/Checkbox.png" class="lg:mt-[-25px]">
@@ -351,7 +343,7 @@
             <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Врачи</li>
             <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Отзывы</li>
             <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Акции</li>
-            <li class="text-[25px] lg:text-[18px] text-[#4F4F4F] flex gap-[10px] items-center">О центре<i
+            <li class="text-[25px] lg:text-[18px] w-[110px] text-[#4F4F4F] flex gap-[10px] items-center">О центре<i
                 class="fa-solid fa-caret-down"></i></li>
                 <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Детство</li>
                 <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Контакты</li>
@@ -420,7 +412,7 @@
             <h1>Vkontakte</h1>
         </div>
     </div>
-    <div class="text-[20px] mt-[-90px] ml-[40px] text-right hidden lg:block">
+    <div class="text-[20px] mt-[-90px] ml-[10px] text-right hidden lg:block">
         <h1>info@gormedcentre.ru</h1>
         <div class="flex items-center gap-[10px]">
             <i class="fa-solid fa-glasses"></i>
@@ -436,5 +428,8 @@
         
     </div>
    
+<div class="h-[400px]">
+    
+</div>
 </body>
 </html>
