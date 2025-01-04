@@ -1,13 +1,520 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Врачи</title>
     <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="fontawesome-free-6.6.0-web/css/all.css">
 </head>
-<body>
+
+<body class="max-w-[1300px] m-auto">
+    <header>
+        <nav class="w-[90%] m-auto flex justify-between py-[30px]">
+            <div class="flex gap-[100px]">
+                <img class="" src="./takhmina/logo.svg" alt="">
+                <div class="hidden text-[grey] text-[14px] lg:flex gap-[40px]">
+
+                    <div class="">
+                        <p class="text-[#00578A] text-[18px]">8 (495) 926-06-03</p>
+                        <div class="flex gap-[15px]">
+                            <img src="./takhmina/social.png" alt="">
+                            <p class="text-[grey]">Whatsapp</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <p>info@gormedcentre.ru</p>
+                        <p>Заказать звонок</p>
+                    </div>
+                    <div class="">
+                        <p>г. Мытищи,</p>
+                        <p>ул.Рождественская, д.7</p>
+                    </div>
+                    <div class="">
+                        <p>Ежедневно</p>
+                        <p>с 9.00 до 21.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-[20px] text-[37px] mt-[15px] lg:hidden">
+                <i class="fa-solid fa-phone fa-flip-horizontal" style="color: #4f4f4f;"></i>
+                <p class="text-[grey] text-[14px] mt-[9px]">Меню</p>
+                <i class="fa-solid fa-bars" style="color: #4f4f4f;"></i>
+            </div>
+            <div class="hidden lg:flex gap-[30px]">
+                <img class="h-[46px] w-[54px]" src="./takhmina/search.png" alt="">
+                <button class="h-[54px] px-[30px] font-bold rounded-[7px] text-[#00578A] bg-[#E3EFF5]">Личный
+                    кабинет</button>
+            </div>
+        </nav>
+        <nav
+            class="hidden w-[90%] m-auto py-[8px] px-[10px] rounded-[10px] shadow-md shadow-gray-300 lg:flex justify-between">
+            <ul class="flex gap-[30px]">
+                <select class="bg-white">
+                    <option value="Направления">Направления</option>
+                </select>
+                <li class="mt-[15px]">Услуги</li>
+                <li class="mt-[15px]">Врачи</li>
+                <li class="mt-[15px]">Отзывы</li>
+                <li class="mt-[15px]">Акции</li>
+                <select class="bg-white">
+                    <option value="О центре">О центре</option>
+                </select>
+                <li class="mt-[15px]">Детство</li>
+                <li class="mt-[15px]">Контакты</li>
+            </ul>
+            <div class="flex gap-[37px]">
+                <div class="flex gap-[15px]">
+                    <img class="w-[21px] h-[19px] mt-[17px]" src="./takhmina/icon(1).png" alt="">
+                    <p class="mt-[15px]">Версия для слабовидящих</p>
+                </div>
+                <button class="h-[54px] px-[30px] font-bold rounded-[7px] bg-[#00578A] text-[#E3EFF5]">Запись на
+                    приём</button>
+            </div>
+        </nav>
+    </header>
+    <div class="mt-[50px]">
+        <div class=" flex gap-[10px] pl-[10px] md:ml-[60px]">
+            <div>
+                <h1 class="text-[20px] text-[#353535]">Главная</h1>
+                <div class="h-[1px] ml-[-1px] w-[75px] bg-[#353535]"></div>
+            </div>
+            <p class="text-[20px]">/</p>
+            <h1 class="text-[20px] text-[gray]">Врачи</h1>
+        </div>
+    </div>
+    <section class="p-[10px] mt-[30px] lg:ml-[60px]">
+        <h1 class="text-[40px] font-semibold">Врачи</h1>
+        <div class="lg:flex lg:gap-[30px]">
+
+            <div class="mt-[30px] flex flex-col gap-[10px]">
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px] lg:pl-[12px] pr-[10px]">
+                    <h1 class="font-semibold lg:text-[#017CC1] flex items-center gap-[150px]">Аллерголог-иммунолог
+                        <img src="./Bezh.img/Group 9317.png" class="w-[30px] hidden lg:block">
+                    </h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold text-[#017CC1] lg:text-[black]">Гастроэнтеролог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Гинеколог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Дерматолог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Кардиолог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Косметолог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Массажист</h1>
+                </div>
+            </div>
+            <div class="mt-[10px] lg:mt-[30px] flex flex-col gap-[10px]">
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px] lg:pr-[250px] lg:pl-[12px]">
+                    <h1 class="font-semibold">Нарколог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Невролог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Оториноларинголог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Проктолог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Психиатр</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Пульмонолог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Стоматолог</h1>
+                </div>
+            </div>
+            <div class="mt-[10px] flex flex-col gap-[10px] lg:mt-[30px]">
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px] lg:pr-[250px]">
+                    <h1 class="font-semibold">Терапевт</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Травматолог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Уролог-андролог</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Физиотерапевт</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Хирург</h1>
+                </div>
+                <div class="bg-[#F5F9FB] rounded-[5px] p-[12px]">
+                    <h1 class="font-semibold">Эндокринолог</h1>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="p-[10px] mt-[50px]">
+        <!-- //////////////Input/////////// -->
+        <article
+            class="w-[100%] pl-[20px] pt-[30px] lg:pl-[40px] lg:pr-[100px] bg-gradient-to-r from-[#02B0C5] to-[#0074B8] rounded-[10px]">
+            <div class="lg:flex justify-between">
+                <h1 class="text-white text-[40px] lg:text-[50px] font-semibold">Записаться<br class="lg:hidden">
+                    на приём</h1>
+                <p class="text-white text-[20px] pt-[20px]">Оставьте заявку и мы свяжемся <br> с вами в ближайшее
+                    время</p>
+            </div>
+            <div
+                class="pr-[10px] pt-[10px] lg:p-[30px] lg:pl-[0px] mt-[20px] flex flex-col  lg:flex lg:flex-row lg:gap-[10px] gap-[10px]">
+                <div class="flex flex-col gap-[10px]">
+                    <div
+                        class="pl-[20px] py-[15px] rounded-[5px] font-semibold text-[17px] items-center bg-white flex gap-[110px]">
+                        <h1 class="lg:w-[220px]">Выберете направление</h1><i
+                            class="fa-solid fa-angle-down lg:pr-[20px]"></i>
+                    </div>
+                    <div
+                        class="pl-[20px] py-[15px] rounded-[5px] font-semibold text-[17px] items-center bg-white flex gap-[170px] lg:gap-[110px]">
+                        <h1 class="lg:w-[220px]">Выберете врача</h1><i class="fa-solid fa-angle-down lg:pr-[20px]"></i>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-[10px]">
+                    <input type="text" class="rounded-[5px] px-[20px] py-[17px] lg:py-[15px] lg:pr-[100px]"
+                        placeholder="Ваше имя">
+                    <input type="text" class="rounded-[5px] px-[20px] py-[17px] lg:py-[15px]" placeholder="Ваш телефон">
+                </div>
+                <div class="lg:mt-[-20px]">
+                    <button
+                        class="text-white bg-[#00C6BF] rounded-[5px] py-[15px] mt-[20px] mb-[-30px] px-[110px] lg:px-[110px] ">Оставить
+                        заявку</button>
+                    <div class="flex items-center gap-[20px] lg:mt-[-10px]">
+                        <img src="./Bezh.img/Checkbox.png" class="lg:mt-[-25px]">
+                        <h1 class="text-white mt-[40px] pb-[30px]">Отправляя заявку, вы соглашаетесь на <br> нашу
+                            политику конфиденциальности</h1>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    </header>
+    <main class="p-[10px] mt-[20px]">
+        <div>
+            <div
+                class="lg:w-[300px] pl-[20px] py-[15px] rounded-[5px] font-semibold text-[17px] items-center bg-[#F0F6F9] flex gap-[200px] lg:gap-[110px]">
+
+                <h1 class="lg:w-[220px]">Специализация</h1><i class="fa-solid fa-angle-down lg:pr-[20px]"></i>
+            </div>
+        </div>
+        <!-- ///////first////// -->
+        <div class="mt-[40px] flex flex-col lg:flex lg:flex-row  lg:gap-[10px] gap-[20px]">
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/photo.png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Крятов Андрей</h1>
+                <p class="mt-[10px] text-[20px] lg:text-[18px]">Главный врач, уролог, андролог</p>
+                <button
+                    class="text-white px-[140px] lg:px-[100px] mt-[20px] py-[15px] lg:mt-[24px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px]  lg:w-[300px]">
+                <img src="./Bezh.img/photo (1).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Савина Наталья</h1>
+                <p class="mt-[10px] text-[20px]">Врач-невролог</p>
+                <button class="text-white px-[140px] mt-[20px] py-[15px] lg:px-[100px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px]  lg:w-[300px]">
+                <img src="./Bezh.img/photo (2).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Зотова Гюзяль</h1>
+                <p class="mt-[10px] text-[20px]">Врач-терапевт</p>
+                <button class="text-white px-[140px] mt-[20px] lg:px-[100px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px]  lg:w-[300px]">
+                <img src="./Bezh.img/photo (3).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Николаeва Оксана</h1>
+                <p class="mt-[10px] text-[20px]">Врач-терапевт</p>
+                <button class="text-white px-[140px] mt-[20px] lg:px-[100px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+        </div>
+        <!-- ////////second////// -->
+        <div class="mt-[40px] flex flex-col gap-[20px] lg:flex lg:flex-row  lg:gap-[10px]">
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group.png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Варгатая Виктория</h1>
+                <p class="mt-[10px] text-[20px]">Врач-пульмонолог, терапевт</p>
+                <button class="text-white px-[140px] mt-[20px] lg:px-[100px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (1).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Цветкова Ольга</h1>
+                <p class="mt-[10px] text-[20px]">Врач-офтальмолог</p>
+                <button class="text-white px-[140px] mt-[20px] lg:px-[100px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (4).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Кузнецова Анна</h1>
+                <p class="mt-[10px] text-[20px]">Врач-терапевт</p>
+                <button class="text-white px-[140px] mt-[20px] lg:px-[100px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (5).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Федоренко Андрей</h1>
+                <p class="mt-[10px] text-[20px]">Врач-оториноларинголог</p>
+                <button class="text-white px-[140px] mt-[20px] lg:px-[100px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+        </div>
+        <!-- //////////third//////// -->
+        <div class="mt-[40px] flex flex-col gap-[20px] lg:flex lg:flex-row  lg:gap-[10px]">
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (6).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Щербак Евгения</h1>
+                <p class="mt-[10px] text-[20px]">Врач-оториноларинголог</p>
+                <button class="text-white px-[140px] mt-[20px] lg:px-[100px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (7).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Карапетян Михаил</h1>
+                <p class="mt-[10px] text-[20px]">Врач-эндоскопист</p>
+                <button class="text-white px-[140px] mt-[20px] lg:px-[100px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (8).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Медведева Елена</h1>
+                <p class="mt-[10px] text-[20px]">Врач УЗ-диагностики</p>
+                <button class="text-white px-[140px] lg:px-[100px] mt-[20px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (9).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Бобин Евгений</h1>
+                <p class="mt-[10px] text-[20px] lg:text-[17px]">Врач УЗ-диагностики, гастроэнте...</p>
+                <button
+                    class="text-white px-[140px] lg:px-[100px] mt-[20px] lg:mt-[24px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+        </div>
+        <!-- /////////fourd///////// -->
+        <div class="mt-[40px] flex flex-col gap-[20px] lg:flex lg:flex-row  lg:gap-[10px]">
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (10).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Крылова Анастасия</h1>
+                <p class="mt-[10px] text-[20px]">Врач УЗ-диагностики</p>
+                <button class="text-white px-[140px] lg:px-[100px] mt-[20px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (11).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Попова Елена</h1>
+                <p class="mt-[10px] text-[20px]">Врач УЗ-диагностики</p>
+                <button class="text-white px-[140px] lg:px-[100px] mt-[20px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (12).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Семенов Дмитрий</h1>
+                <p class="mt-[10px] text-[20px]">Врач-хирург</p>
+                <button class="text-white px-[140px] lg:px-[100px] mt-[20px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+            <div class="p-[10px] lg:w-[300px]">
+                <img src="./Bezh.img/Mask group (13).png" class="w-[100%]">
+                <h1 class="text-[#017CC1] text-[25px] mt-[10px] font-semibold">Шевчук Александр</h1>
+                <p class="mt-[10px] text-[20px]">Врач-хирург</p>
+                <button class="text-white px-[140px] lg:px-[100px] mt-[20px] py-[15px] bg-[#00578A] rounded-[5px]">
+                    Записаться
+                </button>
+            </div>
+        </div>
+        <section class="p-[10px]">
+            <div class="flex flex-col gap-[30px] lg:flex lg:justify-between lg:flex-row">
+                <h1 class="text-[40px] font-semibold">Лицензии и <br> сертификаты</h1>
+                <img src="./Bezh.img/Slider Buttons (1).png" class="w-[130px] lg:w-[130px] lg:h-[60px] lg:mt-[30px]">
+            </div>
+            <div class="mt-[30px] lg:flex gap-[20px]">
+                <div>
+                    <img src="./Bezh.img/01.png" class="w-[100%]">
+                </div>
+                <div>
+                    <img src="./Bezh.img/02-hover.png" class="hidden lg:block w-[100%]">
+                </div>
+                <div>
+                    <img src="./Bezh.img/03.png" class="hidden lg:block w-[100%]">
+                </div>
+                <div>
+                    <img src="./Bezh.img/04.png" class="hidden lg:block w-[100%]">
+                </div>
+            </div>
+        </section>
+        <section class="p-[10px] mt-[40px]">
+            <h1 class="text-[35px] font-semibold lg:text-[40px]">Как нас найти</h1>
+            <div class="mt-[20px]">
+                <img src="./Bezh.img/map.png" class="w-[100%] lg:hidden">
+                <img src="./Bezh.img/map (1).png" class="w-[100%] hidden lg:block">
+
+            </div>
+        </section>
+        <article
+            class="w-[100%] mt-[30px] pl-[20px] pt-[30px] lg:pl-[40px] lg:pr-[100px] bg-gradient-to-r from-[#02B0C5] to-[#0074B8] rounded-[10px]">
+            <div class="lg:flex justify-between">
+                <h1 class="text-white text-[40px] lg:text-[50px] font-semibold">Записаться<br class="lg:hidden">
+                    на приём</h1>
+                <p class="text-white text-[20px] pt-[20px]">Оставьте заявку и мы свяжемся <br> с вами в ближайшее
+                    время</p>
+            </div>
+            <div
+                class="pr-[10px] pt-[10px] lg:p-[30px] lg:pl-[0px] mt-[20px] flex flex-col  lg:flex lg:flex-row lg:gap-[10px] gap-[10px]">
+                <div class="flex flex-col gap-[10px]">
+                    <div
+                        class="pl-[20px] py-[15px] rounded-[5px] font-semibold text-[17px] items-center bg-white flex gap-[110px]">
+                        <h1 class="lg:w-[220px]">Выберете направление</h1><i
+                            class="fa-solid fa-angle-down lg:pr-[20px]"></i>
+                    </div>
+                    <div
+                        class="pl-[20px] py-[15px] rounded-[5px] font-semibold text-[17px] items-center bg-white flex gap-[170px] lg:gap-[110px]">
+                        <h1 class="lg:w-[220px]">Выберете врача</h1><i class="fa-solid fa-angle-down lg:pr-[20px]"></i>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-[10px]">
+                    <input type="text" class="rounded-[5px] px-[20px] py-[17px] lg:py-[15px] lg:pr-[100px]"
+                        placeholder="Ваше имя">
+                    <input type="text" class="rounded-[5px] px-[20px] py-[17px] lg:py-[15px]" placeholder="Ваш телефон">
+                </div>
+                <div class="lg:mt-[-20px]">
+                    <button
+                        class="text-white bg-[#00C6BF] rounded-[5px] py-[15px] mt-[20px] mb-[-30px] px-[110px] lg:px-[110px] ">Оставить
+                        заявку</button>
+                    <div class="flex items-center gap-[20px] lg:mt-[-10px]">
+                        <img src="./Bezh.img/Checkbox.png" class="lg:mt-[-25px]">
+                        <h1 class="text-white mt-[40px] pb-[30px]">Отправляя заявку, вы соглашаетесь на <br> нашу
+                            политику конфиденциальности</h1>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer class="bg-[#F0F6F9] p-[20px] lg:h-[350px] mt-[50px]">
+        <div class="lg:flex lg:gap-[80px]">
+
+            <div>
+                <img src="Bezh.img/logo.svg">
+        </div>
+        <div class="mt-[30px]">
+            <ul class="flex flex-col gap-[10px] lg:flex lg:flex-row lg:gap-[30px]">
+                <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Направления</li>
+                <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Услуги</li>
+                <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Врачи</li>
+                <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Отзывы</li>
+                <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Акции</li>
+                <li class="text-[25px] lg:text-[18px] text-[#4F4F4F] flex gap-[10px] items-center">О центре<i
+                    class="fa-solid fa-caret-down"></i></li>
+                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Детство</li>
+                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Контакты</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="lg:flex gap-[40px]">
+        
+        <div class="mt-[40px] pb-[20px] hidden lg:block">
+            <p class="text-[#4F4F4F]">© 2011-2023 Городской Медицинский Центр. Все права защищены.</p>
+            <p class="text-[#7F8D94] pt-[10px] lg:hidden">Политика конфиденциальности</p>
+            <div class="bg-[#7F8D94] w-[235px] h-[1px]"></div>
+        </div>
+        <div class="lg:flex gap-[40px]" > 
+            <div class="mt-[20px] lg:mt-[30px]">
+                    <p class="text-[35px] lg:text-[30px] lg:w-[240px] text-[#00578A]">8 (495) 926-06-03</p>
+                    <p class="text-[35px] lg:text-[30px] lg:w-[240px] text-[#00578A]">8 (495) 588-08-80</p>
+                </div>
+                <div class="mt-[20px] lg:mt-[30px] ">
+                    <p class="text-[20px] lg:w-[260px]">г. Мытищи, ул.Рождественская, д.7</p>
+                    <div class="flex gap-[10px] text-[20px]">
+                        <p class="text-[gray]">Ежедневно</p>
+                        <p>с 9.00 до 21.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-[30px]"><button class="bg-[#E3EFF5] text-[#4F4F4F] py-[10px] px-[80px] lg:px-[40px]"><p class="lg:w-[200px]">Заказать обратный звонок</p></button></div>
+            <div class="mt-[20px] flex gap-[30px] lg:hidden">
+           <div class="flex gap-[10px] items-center">
+               <img src="./Bezh.img/social.png">
+               <h1>Написать в Whatsapp</h1>
+            </div>
+            <div class="flex gap-[10px] items-center">
+                <img src="./Bezh.img/social (1).png">
+                <h1>Vkontakte</h1>
+            </div>
+        </div>
+        <div class="mt-[50px] text-[20px] lg:hidden">
+            <h1>info@gormedcentre.ru</h1>
+            <div class="flex items-center gap-[10px]">
+                <i class="fa-solid fa-glasses"></i>
+                <p>Версия для слабовидящих</p>
+            </div>
+        </div>
+        <div class="mt-[40px] pb-[20px] lg:hidden">
+            <p class="text-[#4F4F4F]">© 2011-2023 Городской Медицинский Центр. Все права защищены.</p>
+            <p class="text-[#7F8D94] pt-[10px]">Политика конфиденциальности</p>
+            <div class="bg-[#7F8D94] w-[235px] h-[1px]"></div>
+        </div>
+    </footer>
+    <div class="flex gap-[130px]">
+        
+        <div class="hidden lg:block mt-[-80px] ml-[20px]">
+            <p class="text-[#7F8D94] pt-[10px] ">Политика конфиденциальности</p>
+            <div class="bg-[#7F8D94] w-[235px] h-[1px]"></div>
+        </div>
+        <div class="hidden lg:flex gap-[85px] mt-[-100px]">
+            
+            <div class="flex gap-[10px] items-center ">
+                <img src="./Bezh.img/social.png">
+                <h1>Написать в Whatsapp</h1>
+            </div>
+            <div class="flex gap-[10px] items-center">
+                <img src="./Bezh.img/social (1).png">
+                <h1>Vkontakte</h1>
+            </div>
+        </div>
+        <div class="text-[20px] mt-[-90px] ml-[40px] text-right hidden lg:block">
+            <h1>info@gormedcentre.ru</h1>
+            <div class="flex items-center gap-[10px]">
+                <i class="fa-solid fa-glasses"></i>
+                <p>Версия для слабовидящих</p>
+            </div>
+    </div>
+    </div>
+</div>
+    <div class="p-[20px] lg:mt-[30px]">
+            Информация о ценах носит уведомительный характер и не является публичной офертой. Действующий прейскурант, заверенный печатью и подписью руководителя, находится на информационных стендах Центра. Деятельность ООО «ГМЦ» осуществляется на основании действующей лицензии, выданной Департаментом здравоохранения города Москвы.
+            <br>
+            <p class="pt-[10px]">Имеются противопоказания. Необходимо проконсультироваться со специалистом</p>
+            
+        </div>
+    </body>
     
-</body>
-</html>
+    </html>
