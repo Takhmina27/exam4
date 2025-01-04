@@ -36,9 +36,9 @@
                 </div>
             </div>
             <div class="flex gap-[20px] text-[37px] mt-[15px] lg:hidden">
-                <i class="fa-solid fa-phone fa-flip-horizontal" style="color: #4f4f4f;"></i>
+                <img class="w-[44px] h-[44px]" src="./sami/call.png" alt="">
                 <p class="text-[grey] text-[14px] mt-[9px]">Меню</p>
-                <i class="fa-solid fa-bars" style="color: #4f4f4f;"></i>
+                <img class="w-[44px] h-[44px]" src="./sami/burger(1).png" alt="">
             </div>
             <div class="hidden lg:flex gap-[30px]">
                 <img class="h-[46px] w-[54px]" src="./takhmina/search.png" alt="">
@@ -73,10 +73,16 @@
         </nav>
     </header>
  <br><br><br>
+
+
     <main>
-        <p class="text-[#353535] text-[22px] px-[40px]">Главная  /  <span class="text-gray-500">Блог</span></p>
+        <p class="text-[#353535] text-[22px] px-[60px]">Главная  /  <span class="text-gray-500">Блог</span></p>
+        <br>
+        <select class="lg:hidden bg-[#F0F6F9] w-[255px] h-[55px] font-bold ml-[60px]">
+            <option value="Фильтровать статьи">Фильтровать статьи</option>
+        </select>
         <br><br><br>
-        <section class="flex justify-around">
+        <section class="lg:flex justify-around">
             <aside class="ml-[66px] lg:ml-[0px] h-[500px] w-[306px] lg:h-[403px]">
                 <img src="./sami/Image.png" alt="">
                 <br>
@@ -129,7 +135,7 @@
                         </div>
             </aside><br><br>
 
-            <aside class="w-[305px] h-[283px] bg-[#F0F6F9] px-[30px] py-[10px]">
+            <aside class="hidden lg:block w-[305px] h-[283px] bg-[#F0F6F9] px-[30px] py-[10px]">
                 <p class="font-bold">Фильтровать статьи</p>
                 <br>
                 <select class="bg-white w-[255px] h-[55px] font-bold">
@@ -144,7 +150,7 @@
         </section>
         <br><br><br>
 
-        <section class="flex gap-[30px] ml-[20px]">
+        <section class="lg:flex gap-[30px] ml-[20px]">
             <aside class="ml-[66px] lg:ml-[0px] h-[500px] w-[306px] lg:h-[403px]">
                 <img src="./sami/Image.png" alt="">
                 <br>
@@ -198,7 +204,7 @@
             </aside><br><br>
         </section>
         <br><br><br><br>
-        <section class="flex gap-[30px] ml-[20px]">
+        <section class="lg:flex gap-[30px] ml-[20px]">
             <aside class="ml-[66px] lg:ml-[0px] h-[500px] w-[306px] lg:h-[403px]">
                 <img src="./sami/Image.png" alt="">
                 <br>
@@ -253,7 +259,7 @@
 
         </section>
         <br><br><br><br>
-        <section class="flex gap-[30px] ml-[20px]">
+        <section class="lg:flex gap-[30px] ml-[20px]">
             <aside class="ml-[66px] lg:ml-[0px] h-[500px] w-[306px] lg:h-[403px]">
                 <img src="./sami/Image.png" alt="">
                 <br>
@@ -271,7 +277,7 @@
                             </div>
                         </div>
             </aside>
-            <aside class="ml-[66px] lg:ml-[0px] h-[500px] w-[306px] lg:h-[403px]">
+            <aside class="hidden lg:block ml-[66px] lg:ml-[0px] h-[500px] w-[306px] lg:h-[403px]">
                 <img src="./sami/Image.png" alt="">
                 <br>
                 <p class="text-[#017CC1]">Офтальмология</p>
@@ -288,7 +294,7 @@
                             </div>
                         </div>
             </aside>
-            <aside class="ml-[66px] lg:ml-[0px] h-[500px] w-[306px] lg:h-[403px]">
+            <aside class="hidden lg:block ml-[66px] lg:ml-[0px] h-[500px] w-[306px] lg:h-[403px]">
                 <img src="./sami/Image.png" alt="">
                 <br>
                 <p class="text-[#017CC1]">Офтальмология</p>
@@ -309,7 +315,7 @@
             
         </section>
         <br><br><br><br>
-        <section class="flex gap-[30px] ml-[20px]">
+        <section class="hidden lg:flex gap-[30px] ml-[20px]">
             <aside class="ml-[66px] lg:ml-[0px] h-[500px] w-[306px] lg:h-[403px]">
                 <img src="./sami/Image.png" alt="">
                 <br>
@@ -363,8 +369,9 @@
             </aside><br><br>
 
         </section>
-        <br><br><br><br><br>
-        <img class="m-auto" src="./sami/pagination pages.png" alt="">
+        <br><br><br><br>
+        <img class="hidden lg:block m-auto" src="./sami/pagination pages.png" alt="">
+        <img class="m-auto lg:hidden" src="./sami/pagination pages(1).png" alt="">
 
     <br><br>
     <section class="">
