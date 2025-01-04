@@ -13,7 +13,7 @@
     <header>
         <nav class="w-[90%] m-auto flex justify-between py-[30px]">
             <div class="flex gap-[100px]">
-                <img class="" src="./takhmina/logo.svg" alt="">
+                <div class=""><a href="./samiya.html"><img class="" src="./takhmina/logo.svg" alt=""></a></div>
                 <div class="hidden text-[grey] text-[14px] lg:flex gap-[40px]">
 
                     <div class="">
@@ -38,9 +38,9 @@
                 </div>
             </div>
             <div class="flex gap-[20px] text-[37px] mt-[15px] lg:hidden">
-                <i class="fa-solid fa-phone fa-flip-horizontal" style="color: #4f4f4f;"></i>
+                <img class="w-[32px] h-[32px]" src="./takhmina/call.png" alt="">
                 <p class="text-[grey] text-[14px] mt-[9px]">Меню</p>
-                <i class="fa-solid fa-bars" style="color: #4f4f4f;"></i>
+                <img class="w-[36px] h-[30px]" src="./takhmina/burger(1).png" alt="">
             </div>
             <div class="hidden lg:flex gap-[30px]">
                 <img class="h-[46px] w-[54px]" src="./takhmina/search.png" alt="">
@@ -51,16 +51,18 @@
         <nav
             class="hidden w-[90%] m-auto py-[8px] px-[10px] rounded-[10px] shadow-md shadow-gray-300 lg:flex justify-between">
             <ul class="flex gap-[30px]">
-                <select class="bg-white">
-                    <option value="Направления">Направления</option>
-                </select>
-                <li class="mt-[15px]">Услуги</li>
-                <li class="mt-[15px]">Врачи</li>
+                <div class="flex gap-[20px] mt-[14px]">
+                    <p><a href="./main.html">Направления</a></p><img class="w-[8px] h-[4px] mt-[12px]"
+                        src="./takhmina/Polygon 1.png" alt="">
+                </div>
+                <li class="mt-[15px]"><a href="./konturnayaplastika.html">Услуги</a></li>
+                <li class="mt-[15px]"><a href="./Bezhan.html">Врачи</a></li>
                 <li class="mt-[15px]">Отзывы</li>
                 <li class="mt-[15px]">Акции</li>
-                <select class="bg-white">
-                    <option value="О центре">О центре</option>
-                </select>
+                <div class="flex gap-[20px] mt-[14px]">
+                    <p><a href="./sh1.html">О центре</a></p><img class="w-[8px] h-[4px] mt-[12px]"
+                        src="./takhmina/Polygon 1.png" alt="">
+                </div>
                 <li class="mt-[15px]">Детство</li>
                 <li class="mt-[15px]">Контакты</li>
             </ul>
@@ -77,18 +79,20 @@
     <main>
         <section class="bg-[#F0F6F9] mt-[20px]">
             <div class="flex">
-                <aside class="w-[25%] lg:w-[50%] ml-[5%] py-[30px]">
+                <aside class="w-[25%] relative z-10 lg:w-[50%] ml-[5%] py-[30px]">
                     <div class="flex">
-                        <p class="border-b border-[#353535]">Главная</p>
+                        <p class="border-b border-[#353535]"><a href="./samiya.html">Главная</a></p>
                         <p class="px-[10px]">/</p>
-                        <p class="border-b border-[#353535]">О центре</p>
+                        <p class="border-b border-[#353535]"><a href="./sh1.html">О центре</a></p>
                         <p class="px-[10px]">/</p>
                         <p class="text-[#35353599]">Лечение по ДМС</p>
                     </div>
-                    <p class="lg:text-[48px] text-[21px] font-bold mt-[150px]">О центре</p>
+                    <p class="lg:text-[48px] text-[27px] font-bold mt-[150px]">О центре</p>
                 </aside>
-                <img class="lg:ml-[6%] lg:block hidden" src="./sh0.img/image (5).png" alt="">
-                <img class="lg:hidden block" src="./sh0.img/image (6).png" alt="">
+                <aside class="relative">
+                    <img class="lg:ml-[6%] lg:block hidden" src="./sh0.img/image (5).png" alt="">
+                    <img class="lg:hidden block" src="./sh0.img/image (6).png" alt="">
+                </aside>
             </div>
         </section>
         <section class="lg:w-[80%] w-[90%] m-auto my-[60px] flex flex-col gap-[30px]">
@@ -284,11 +288,13 @@
         </section>
     </main>
     <footer class="bg-[#F0F6F9] p-[20px] lg:h-[350px] mt-[50px]">
-        <div class="lg:flex lg:gap-[80px]">
+        <footer class="w-[90%] m-auto">
 
-            <div>
-                <img src="Bezh.img/logo.svg">
-            </div>
+            <div class="lg:flex lg:gap-[80px]">
+                
+                <div>
+                    <img src="Bezh.img/logo.svg">
+                </div>
             <div class="mt-[30px]">
                 <ul class="flex flex-col gap-[10px] lg:flex lg:flex-row lg:gap-[30px]">
                     <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Направления</li>
@@ -297,36 +303,36 @@
                     <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Отзывы</li>
                     <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Акции</li>
                     <li class="text-[25px] lg:text-[18px] text-[#4F4F4F] flex gap-[10px] items-center">О центре<i
-                            class="fa-solid fa-caret-down"></i></li>
-                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Детство</li>
+                        class="fa-solid fa-caret-down"></i></li>
+                        <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Детство</li>
                     <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Контакты</li>
                 </ul>
             </div>
         </div>
+    </div>
+    <div class="lg:flex gap-[40px]">
+
+        <div class="mt-[40px] pb-[20px] hidden lg:block">
+            <p class="text-[#4F4F4F]">© 2011-2023 Городской Медицинский Центр. Все права защищены.</p>
+            <p class="text-[#7F8D94] pt-[10px] lg:hidden">Политика конфиденциальности</p>
+            <div class="bg-[#7F8D94] w-[235px] h-[1px]"></div>
         </div>
         <div class="lg:flex gap-[40px]">
-
-            <div class="mt-[40px] pb-[20px] hidden lg:block">
-                <p class="text-[#4F4F4F]">© 2011-2023 Городской Медицинский Центр. Все права защищены.</p>
-                <p class="text-[#7F8D94] pt-[10px] lg:hidden">Политика конфиденциальности</p>
-                <div class="bg-[#7F8D94] w-[235px] h-[1px]"></div>
+            <div class="mt-[20px] lg:mt-[30px]">
+                <p class="text-[35px] lg:text-[30px] lg:w-[240px] text-[#00578A]">8 (495) 926-06-03</p>
+                <p class="text-[35px] lg:text-[30px] lg:w-[240px] text-[#00578A]">8 (495) 588-08-80</p>
             </div>
-            <div class="lg:flex gap-[40px]">
-                <div class="mt-[20px] lg:mt-[30px]">
-                    <p class="text-[35px] lg:text-[30px] lg:w-[240px] text-[#00578A]">8 (495) 926-06-03</p>
-                    <p class="text-[35px] lg:text-[30px] lg:w-[240px] text-[#00578A]">8 (495) 588-08-80</p>
-                </div>
-                <div class="mt-[20px] lg:mt-[30px] ">
-                    <p class="text-[20px] lg:w-[260px]">г. Мытищи, ул.Рождественская, д.7</p>
-                    <div class="flex gap-[10px] text-[20px]">
+            <div class="mt-[20px] lg:mt-[30px] ">
+                <p class="text-[20px] lg:w-[260px]">г. Мытищи, ул.Рождественская, д.7</p>
+                <div class="flex gap-[10px] text-[20px]">
                         <p class="text-[gray]">Ежедневно</p>
                         <p>с 9.00 до 21.00</p>
                     </div>
                 </div>
             </div>
             <div class="mt-[30px]"><button class="bg-[#E3EFF5] text-[#4F4F4F] py-[10px] px-[80px] lg:px-[40px]">
-                    <p class="lg:w-[200px]">Заказать обратный звонок</p>
-                </button></div>
+                <p class="lg:w-[200px]">Заказать обратный звонок</p>
+            </button></div>
             <div class="mt-[20px] flex gap-[30px] lg:hidden">
                 <div class="flex gap-[10px] items-center">
                     <img src="./Bezh.img/social.png">
@@ -349,8 +355,9 @@
                 <p class="text-[#7F8D94] pt-[10px]">Политика конфиденциальности</p>
                 <div class="bg-[#7F8D94] w-[235px] h-[1px]"></div>
             </div>
+        </footer>
     </footer>
-    <div class="flex gap-[130px]">
+    <div class="w-[90%] m-auto flex gap-[130px]">
 
         <div class="hidden lg:block mt-[-80px] ml-[20px]">
             <p class="text-[#7F8D94] pt-[10px] ">Политика конфиденциальности</p>
@@ -376,7 +383,7 @@
         </div>
     </div>
     </div>
-    <div class="p-[20px] lg:mt-[30px]">
+    <div class="w-[90%] m-auto p-[20px] lg:mt-[30px]">
         Информация о ценах носит уведомительный характер и не является публичной офертой. Действующий прейскурант,
         заверенный печатью и подписью руководителя, находится на информационных стендах Центра. Деятельность ООО «ГМЦ»
         осуществляется на основании действующей лицензии, выданной Департаментом здравоохранения города Москвы.
